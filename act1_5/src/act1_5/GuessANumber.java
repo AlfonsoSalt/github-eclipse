@@ -16,7 +16,7 @@ public class GuessANumber {
 		System.out.println("Enter your number an press enter: ");
 		
 		
-		while(num1!=res) {
+		do{
 
 				Scanner input= new Scanner(System.in);
 				res=input.nextInt();
@@ -26,7 +26,7 @@ public class GuessANumber {
 				System.out.println("You tried "+i +" times.");
 			}
 			else if(res<num1) {
-				System.out.println("Your number is  than the answer ");
+				System.out.println("Your number is lower than the answer ");
 				i++;
 			}
 			else if(res>num1) {
@@ -34,7 +34,7 @@ public class GuessANumber {
 				i++;
 			}
 		
-		}
+		}while(num1!=res) ;
 }
 	
 }
