@@ -26,7 +26,7 @@ public class GuessANumber {
 				System.out.println("You tried "+i +" times.");
 			}
 			else if(res<num1) {
-				System.out.println("Your number is lower than the answer ");
+				System.out.println("Your number is  than the answer ");
 				i++;
 			}
 			else if(res>num1) {
