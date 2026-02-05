@@ -3,6 +3,8 @@ package pck3;
 import java.util.Scanner;
 
 public class Ex3 {
+	//testest
+
 
 	public static void main(String[] args) {
 		
