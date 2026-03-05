@@ -15,7 +15,6 @@ public class GuessANumber {
 		num1= (int) ((Math.random()*1000)%100);	
 		System.out.println("Enter your number an press enter: ");
 		
-		
 		do{
 
 				Scanner input= new Scanner(System.in);
