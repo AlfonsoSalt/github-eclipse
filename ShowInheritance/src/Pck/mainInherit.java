@@ -1,7 +1,8 @@
 package Pck;
 //codigo main
 public class mainInherit {
-
+//alalla
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
