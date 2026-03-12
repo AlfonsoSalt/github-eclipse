@@ -7,6 +7,7 @@ public class mainInherit {
 		// TODO Auto-generated method stub
 
 		System.out.println("hola");
+		System.out.print(false);
 	}
 
 }
