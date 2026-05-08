@@ -2,39 +2,39 @@ package pck;
 
 public class Dispenser {
 	
-	private int numberOfItems; //variable to store the number of
+	public int inventarioDisp; //variable to store the number of
 
 	//items in the dispenser
-	private int cost; //variable to store the cost of an item
+	private int precio; //variable to store the precio of an item
 	
 	public Dispenser() {
-		numberOfItems = 50; cost = 50;
+		inventarioDisp = 50; precio = 50;
 	}
-	//Default constructor to set the cost and number of
+	//Default constructor to set the precio and number of
 	//items to the default values
 	//Postcondition: 
-	public Dispenser(int setNoOfItems, int setCost) {
-		numberOfItems = setNoOfItems;
-		cost = setCost;
+	public Dispenser(int setNoOfItems, int setprecio) {
+		inventarioDisp = setNoOfItems;
+		precio = setprecio;
 	}
-	//Constructor with parameters to set the cost and number
+	//Constructor with parameters to set the precio and number
 	//of items in the dispenser specified by the user
 	//Postcondition: 
 
-	public int getCount() {
-		return numberOfItems ;
+	public int contarInv() {
+		return inventarioDisp ;
 	}
 	//Method to show the number of items in the dispenser
 	//Postcondition: The value of the instance variable
 	//
-	public int getProductCost() {
-		return cost;
+	public int getProductprecio() {
+		return precio;
 	}
-	//Method to show the cost of the item
+	//Method to show the precio of the item
 	//Postcondition: The value of the instance
-	// variable cost is returned
+	// variable precio is returned
 	public void makeSale() {
-		numberOfItems = numberOfItems - 1;
+		inventarioDisp = inventarioDisp - 1;
 	}
 	//Method to reduce the number of items by 1
 	//Postcondition: 

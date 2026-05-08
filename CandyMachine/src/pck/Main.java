@@ -28,9 +28,9 @@ public class Main {
 
 			//needed
 
-			if (product.getCount() > 0) //Step 1
+			if (product.contarInv() > 0) //Step 1
 			{
-			price = product.getProductCost(); //Step 1a
+			price = product.getProductprecio(); //Step 1a
 			coinsRequired = price; //Step 1b
 			coinsInserted = 0; //Step 1c
 			while (coinsRequired > 0) //Step 1d
@@ -49,7 +49,7 @@ public class Main {
 
 			}
 			System.out.println();
-			cRegister.acceptAmount(coinsInserted); //Step 1e
+			cRegister.recibirDinero(coinsRequired); //Step 1e
 			product.makeSale(); //Step 1f
 			System.out.println("Collect your item "
 			+ "at the bottom and "
