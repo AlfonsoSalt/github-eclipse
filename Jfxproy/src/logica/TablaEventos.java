@@ -14,8 +14,6 @@ public class TablaEventos {
         "Tormenta electromagnética. Ambos ignoran su dado más alto.",
         "Campo de batalla tóxico. El ganador pierde 1 tropa.",
         "Sin evento. Combate limpio.",
-        "Sin evento. Combate limpio.",
-        "Sin evento. Combate limpio."
     };
 
     private Random random = new Random();

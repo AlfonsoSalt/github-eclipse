@@ -1,9 +1,9 @@
 package modelo;
 
 public enum TipoUnidad {
-    SOLDADO(100,  "Soldado",  1, 1, "Unidad básica"),
-    TANQUE(300,   "Tanque",   3, 1, "Alto ataque, baja defensa"),
-    ELITЕ(500,    "Élite",    2, 3, "Alto ataque y defensa");
+    SOLDADO(200,  "Soldado",  0, 0, "Unidad básica"),
+    TANQUE(800,   "Tanque",   2, 1, "Alto ataque, baja defensa"),
+    ELITЕ(1500,    "ELITE",    3, 3, "Alto ataque y defensa");
 
     public final int costo;
     public final String nombre;
