@@ -2,34 +2,34 @@ package pck;
 
 public class CashRegister {
 	
-	private int cashOnHand;
+	private int dinero;
 	
 	public CashRegister() {
-		cashOnHand = 500;
+		dinero = 5;
 	}
 	//Default constructor
 		//To set the cash in the register 500 cents
 		//Postcondition: 
 	
-	public CashRegister(int cashIn)
+	public CashRegister(int dinRecibido)
 	{
-		if (cashIn >= 0)
-		cashOnHand = cashIn;
+		if (dinRecibido >= 0)
+		dinero = dinRecibido;
 		else
-		cashOnHand = 500;
+		dinero = 500;
 	}
 	//Constructor with parameters
-	//Postcondition: cashOnHand = cashIn;
+	//Postcondition: dinero = dinRecibido;
 	
-	public int currentBalance() {
-		return cashOnHand;
+	public int dinActual() {
+		return dinero;
 	}
 	//Method to show the current amount in the cash register
 	//Postcondition: The value of the instance variable
-	// cashOnHand is returned
+	// dinero is returned
 	
-	public void acceptAmount(int amountIn) {
-		cashOnHand = cashOnHand + amountIn;
+	public void recibirDinero(int amountIn) {
+		dinero = dinero + amountIn;
 	}
 	//Method to receive the amount deposited by
 	//the customer and update the amount in the register
